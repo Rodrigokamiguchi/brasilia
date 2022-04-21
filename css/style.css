@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{	
+	font-family: 'Roboto', sans-serif;
+}
+
+#site{
+	font-size: 10px;
+}
+
+nav ul#menu{
+	/*background-color: #495931;*/
+	background-color: rgba(2,0,36);
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	width: 100%;
+}
+
+nav li{
+	display: inline;
+	line-height: 60px;
+}
+
+a:link, a:visited{
+	font-size: 2.0em;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #F2F2F2;
+	padding: 22px;
+	text-shadow: 1px 1px #000;
+}
+
+a:hover, a:active{
+	background-color: #CDD971;
+	color: #000;
+	text-shadow: 1px 1px #FFF;
+}
+
+#banner{
+	background-image: url("../imagens/parque2.jpg");
+	width: 100%;
+	height: 50vh;
+	background-size: cover;
+  background-repeat: no-repeat center;
+  border-width: 2px;
+  border-style: double;
+  border-color: #fff;
+}
+
+h1.destaque1 {
+	text-align: center;
+	font-size: 6.0em;
+	padding-top: 300px;
+  	margin: 0 0.5rem;
+  	animation: zoomIn; 
+  	animation-duration: 2s; 
+}
+
+h2.destaque2 {
+	text-align: center;
+	font-size: 5.0em;
+	margin: 0 0.5rem;
+  	animation: zoomInUp; 
+  	animation-duration: 2s; 
+}
+h3.destaque3 {
+	text-align: center;
+	font-size: 5.0em;
+	margin: 0 0.5rem;
+  	animation: zoomInUp; 
+  	animation-duration: 2s; 
+}
+h1{	
+	font-size: 2.0em;
+	padding: 30px 0;
+	text-align: center;
+}
+h2{
+  font-size: 2.0em;
+  padding: 30px 0;
+  text-align: center:
+}
+h3{
+  font-size:2.0em;
+  padding: 30px 0;
+  text-align: center;
+}
+#about{
+	/*background-color: #D9A273;*/
+  background-color: #B2D925;
+	height: 100vh;
+	padding: 50px;
+	font-size: 2.0em;
+	text-align: justify;
+	color: #000;
+	text-shadow: 1px 1px 1px #fff;
+}
+
+#gallery{
+	background-color: #B8D943;
+	height: 100%;
+	padding: 50px;
+	font-size: 2.0em;
+	text-align: justify;
+  border-width; 2px;
+  border-style: solid;
+  border-color: #000;
+}
+
+.galeria{
+  display: inline-block;
+	width: 350px;
+	margin: 30px;
+	border-radius: 10px;
+	border: 2px solid #FFF;
+	box-shadow: 5px 5px 25px #000;
+}
+.gallery-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Tomorow, sans-serif;
+  text-shadow: 5px 5px 10px #fff;
+}
+#contact{
+	background-color: #44592E;
+	height: 100vh;
+	padding: 10px;
+	font-size: 2.0em;
+	text-align: center;
+}
+
+#contact label{
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+#contact input, textarea{
+	width: 400px;
+	border-radius: 5px;
+	border:  0;
+	font-size: 1.2em;
+	padding: 10px;
+}
+
+#contact button{
+	display: block;
+	background-color: #678C42;
+	color: #FFF;
+	padding: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	border: 0;
+	border-radius: 5px;
+	box-shadow: 5px 5px 35px #333;
+	margin-top: 20px;
+	text-transform: uppercase;
+}
+
+#contact button:hover{
+	background-color: #CDD971;
+	color: #42e819;
+}
+#more{
+  background-color:#678C42;
